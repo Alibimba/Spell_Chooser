@@ -18,10 +18,60 @@ let skills = [
         har:'<p>Урон 5, ОД 70, Слотов памяти - 2</p>',
         img: '<img src="css/image/foto.JPG" class="kartinn">',
         opis:'gojierjgrehjhpjhperjhpijrehierhjoerhjeorihjreoihjreioherhjreoihjrehijrehoierjhoirejh',
+    },
+    {
+        id:'2',
+        name:'НеПорча',
+        har:'<p>Урон 5, ОД 70, Слотов памяти - 2</p>',
+        img: '<img src="css/image/foto.JPG" class="kartinn">',
+        opis:'gojierjgrehjhpjhperjhpijrehierhjoerhjeorihjreoihjreioherhjreoihjrehijrehoierjhoirejh',
+    },
+    {
+        id:'3',
+        name:'ДаПорча',
+        har:'<p>Урон 5, ОД 70, Слотов памяти - 2</p>',
+        img: '<img src="css/image/foto.JPG" class="kartinn">',
+        opis:'gojierjgrehjhpjhperjhpijrehierhjoerhjeorihjreoihjreioherhjreoihjrehijrehoierjhoirejh',
     }
 ]
 
+vvod.addEventListener('input', function (ev) {
+    skills.forEach(function (skill) {
 
+        if (skill.name.toLowerCase() === vvod.value.toLowerCase() ) {
+
+            infa.innerHTML = ''
+            console.log(skill);
+            let obsh =document.createElement('div');
+            let iii =document.createElement('div');
+            let kartin =document.createElement('img');
+            let nazv =document.createElement('div');
+            let opis =document.createElement('div');
+
+
+            infa.classList.add('infa')
+            obsh.classList.add('obsh')
+            iii.classList.add('iii')
+            kartin.classList.add('kartin')
+            nazv.classList.add('nazv')
+            opis.classList.add('opis')
+
+            // pole.appendChild(infa)
+            obsh.appendChild(iii)
+            obsh.appendChild(nazv)
+
+            infa.appendChild(obsh)
+            infa.appendChild(opis)
+
+            nazv.innerHTML += skill.name + '<br>' + '<br>' + skill.har + '<style>p{font-size: 16px;}</style>';
+
+            iii.innerHTML += skill.img;
+
+            opis.innerHTML += '<h3>Описание </h3>' + '<br>' + skill.opis;
+        }
+    })
+    // console.log(vvod.value);
+})
 
 
 
