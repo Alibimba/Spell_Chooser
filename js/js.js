@@ -15,7 +15,7 @@ let skills = [
     {
         name:'Порча',
         har:'<p>Урон 5, ОД 70, Слотов памяти - 2</p>',
-        img: 'css/images/foto.JPG',
+        img: '<img src="css/image/foto.JPG" class="kartinn">',
         opis:'gojierjgrehjhpjhperjhpijrehierhjoerhjeorihjreoihjreioherhjreoihjrehijrehoierjhoirejh',
     }
 ]
@@ -45,19 +45,18 @@ ok.addEventListener('click', function (){
         opis.classList.add('opis')
 
         // pole.appendChild(infa)
-        obsh.appendChild(kartin)
-        obsh.appendChild(nazv)
         obsh.appendChild(iii)
+        obsh.appendChild(nazv)
+
         infa.appendChild(obsh)
         infa.appendChild(opis)
 
         nazv.innerHTML += el.name + '<br>' + '<br>' + el.har + '<style>p{font-size: 16px;}</style>';
 
-
+        iii.innerHTML += el.img;
 
         opis.innerHTML += '<h3>Описание </h3>' + '<br>' + el.opis;
 
-        iii.style.background = "url('"+ el.img + "') center no-repeat";
-        iii.style.backgroundSize = "cover";
+
     });
 });
