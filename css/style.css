@@ -54,6 +54,8 @@ body{
 .nazv{
     margin-left: 50px;
     margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
 }
 .opis{
     text-align: center;
