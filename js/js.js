@@ -13,6 +13,7 @@ let opis =document.querySelector('.opis');
 
 let skills = [
     {
+        id:'1',
         name:'Порча',
         har:'<p>Урон 5, ОД 70, Слотов памяти - 2</p>',
         img: '<img src="css/image/foto.JPG" class="kartinn">',
