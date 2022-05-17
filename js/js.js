@@ -15,23 +15,23 @@ let skills = [
     {
         id:'1',
         name:'Порча',
-        har:'<p>Урон 5, ОД 70, Слотов памяти - 2</p>',
+        har:'<p>Урон 30, ОД 3, Слотов памяти - 1</p>',
         img: '<img src="css/image/foto.JPG" class="kartinn">',
-        opis:'gojierjgrehjhpjhperjhpijrehierhjoerhjeorihjreoihjreioherhjreoihjrehijrehoierjhoirejh',
+        opis:'Подошёл ударил врага порчей, он заражается порчей, порча отнимает отнимает хп, крутая кроче, но маленький радиус действия',
     },
     {
         id:'2',
-        name:'НеПорча',
-        har:'<p>Урон 5, ОД 70, Слотов памяти - 2</p>',
-        img: '<img src="css/image/foto.JPG" class="kartinn">',
-        opis:'gojierjgrehjhpjhperjhpijrehierhjoerhjeorihjreoihjreioherhjreoihjrehijrehoierjhoirejh',
+        name:'Рой маскитов',
+        har:'<p>Урон 15, ОД 2, Слотов памяти - 1</p>',
+        img: '<img src="css/image/rr.JPG" class="kartinn">',
+        opis:'Пускает на большое растояние рой маскитов которые дамажат врага, а тебя хилят, крутой скил кароче, но иногда мало дамажит, но хилит, так что норм',
     },
     {
         id:'3',
-        name:'ДаПорча',
-        har:'<p>Урон 5, ОД 70, Слотов памяти - 2</p>',
-        img: '<img src="css/image/foto.JPG" class="kartinn">',
-        opis:'gojierjgrehjhpjhperjhpijrehierhjoerhjeorihjreoihjreioherhjreoihjrehijrehoierjhoirejh',
+        name:'Бросок щита',
+        har:'<p>Урон 20, ОД 2, Слотов памяти - 1</p>',
+        img: '<img src="css/image/bros.JPG" class="kartinn">',
+        opis:'Чел кидает чето похожее на щит, он рекошетит раза 2, урона нормально так нанаосит. И чета вроде станить должен или нет. Не помню. МОЖНО ИСПОЛЬЗОВАТЬ ТОЛЬКО С ЩИТОМ',
     }
 ]
 
