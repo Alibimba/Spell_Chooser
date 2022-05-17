@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url("image/foni.png");
+}
+.pole{
+    width: 800px;
+    height: 800px;
+    background: #6c5245;
+    margin-top: 50px;
+    border: 15px outset #6e0101;
+    box-shadow: 10px 10px 10px 10px #410000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#vvod{
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    height: 28px;
+    background: #2d055b;
+    color: white;
+}
+#ok{
+    height: 32px;
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    background: #2d055b;
+}
+.infa{
+    height: 800px;
+    width: 800px;
+}
+.infa{
+    color: white;
+}
+.kartin{
+    height: 170px;
+    width: 170px;
+    margin: 30px;
+    border: 3px double #2d055b;
+}
